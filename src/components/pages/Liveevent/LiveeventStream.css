@@ -1,0 +1,20 @@
+.ls-container{
+    background-color: #1D232E;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+.video-js[tabindex="-1"] {  
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

@@ -1,0 +1,69 @@
+.hero-container {
+    background: url('/src/assets/background1.jpg') center center/cover no-repeat; 
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(5,13,11,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .layer {
+    background-color: rgba(5, 13, 11, 0.7);
+    position: absolute;
+    size: cover;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 0;
+}
+
+
+  .home-logo{
+      width: 70vh;
+      max-width: 500px;
+      margin-top: -10vh;
+      display: flex;
+      z-index: 1;
+  }
+
+  .hero-container > h1 {
+    color: #ffffff;
+    font-family: 'PT serif';
+    font-size: 7vh;
+    margin-top: -3vh;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .home-logo{
+        width: 70vh;
+        max-width: 450px;
+        margin-left: 0px;
+        margin-top: -10vh;
+        
+    }
+
+    .hero-container > h1 {
+      font-size: 7vh;
+      margin-top: 3vh;
+    }
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-logo{
+        width: 70vh;
+        margin-left: 0px;
+        margin-top: -10vh;
+        
+    }
+
+    .hero-container > h1 {
+      font-size: 7vh;
+      margin-top: 3vh;
+    }
+  }

@@ -1,0 +1,82 @@
+.ha-container{
+    background-image: url('/src/assets/ha-background.jpg');
+
+
+  height: 75vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vh 6vh;
+  object-fit: contain;
+}
+
+.ha-layer {
+    background-color: rgba(5, 13, 11, 0.6);
+    position: absolute;
+    size: cover;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    z-index: 0;
+}
+
+.ha-header {
+    font-size: 10vh;
+    color: #ffffff;
+    font-family: 'PT serif';
+    margin-bottom: 3vh;
+    text-align: center;
+
+    z-index: 1;
+
+}
+
+.ha-content{
+    font-size: 3vh;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: 'PT serif';
+    text-align: center;
+
+    z-index: 1;
+}
+
+.ha-content-border{
+    padding: 8vh;
+    border: #ffffff solid 1px;
+    border-radius: 15px;
+    
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .ha-content-border{
+        padding: 4vh;
+    }
+
+    .ha-container{
+      height: 85vh;
+    }
+
+    .ha-layer {
+        height: 85vh;
+    }
+
+    .ha-header {
+        font-size: 10vw;
+    }
+
+    .ha-content{
+        font-size: 3vw;
+    }
+}

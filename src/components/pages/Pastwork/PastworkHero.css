@@ -1,0 +1,30 @@
+.ph-container{
+    background: url('/src/assets/background6.jpg') center center/cover no-repeat; 
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(5,13,11,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 4vh;
+}
+
+.ph-header {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'PT serif';
+    font-size: 17vh;
+    margin-top: 0;
+    z-index: 1;
+}
+
+.ph-layer {
+    background-color: rgba(5, 13, 11, 0.7);
+    position: absolute;
+    size: cover;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    z-index: 0;
+}

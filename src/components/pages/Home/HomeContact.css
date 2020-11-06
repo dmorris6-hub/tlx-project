@@ -1,0 +1,130 @@
+.hc-container {
+    background-color: #1D232E;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hc-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    margin-bottom: 24px;
+    padding: 24px;
+    color: #fff;
+  }
+
+.hc-heading {
+    font-size: 10vh;
+    color: #ffffff;
+    font-family: 'PT serif';
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.input-areas{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-right: 6vh;
+    padding-left: 6vh;
+    border: #ffffff solid 1px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.hc-input {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+
+.hc-message {
+    padding: 20px 20px 80px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    resize: vertical;
+}
+
+.hc-row-form {
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+
+.hc-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    align-items: center;
+}
+
+.hc-col {
+    display: table-cell;
+    padding: 4vh;
+}
+
+.hc-desc-header {
+    font-size: 5vh;
+    color: #ffffff;
+    font-family: 'PT serif';
+    text-align: left;
+}
+
+.hc-desc-text {
+    font-size: 3vh;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: 'PT serif';
+    text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+    .hc-col {
+        display: table-row;
+        max-width: 100%;
+        flex-basis: 100%;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hc-col {
+        display: table-row;
+        max-width: 100%;
+        flex-basis: 100%;
+    
+    }
+
+    .hc-desc-header {
+        font-size: 5vh;
+        color: #ffffff;
+        font-family: 'PT serif';
+        text-align: center;
+        width: 100%;
+    }
+    
+    .hc-desc-text {
+        font-size: 3vh;
+        line-height: 1.5;
+        color: #ffffff;
+        font-family: 'PT serif';
+        text-align: center;
+        width: 100%;
+    }
+}
